@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\AI.Invoicer.Domain.Model\AI.Invoicer.Domain.Model.csproj" />
+    <ProjectReference Include="..\AI.Invoicer.Infrastructure\AI.Invoicer.Infrastructure.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
