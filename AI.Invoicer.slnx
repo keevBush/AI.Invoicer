@@ -1,3 +1,18 @@
 <Solution>
+  <Folder Name="/Api/">
+    <Project Path="Api/Ai.Invoicer.Api/Ai.Invoicer.Api.csproj" Id="03a5c8ed-b5af-4e52-8bec-9b97eb5c94c7" />
+  </Folder>
+  <Folder Name="/Domain/">
+    <Project Path="Domain/AI.Invoicer.Domain.Model/AI.Invoicer.Domain.Model.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="Infrastructure/AI.Invoicer.Infrastructure.AIService/AI.Invoicer.Infrastructure.AIService.csproj" />
+    <Project Path="Infrastructure/AI.Invoicer.Infrastructure.Interface/AI.Invoicer.Infrastructure.Interface.csproj" />
+    <Project Path="Infrastructure/AI.Invoicer.Infrastructure.Persistance/AI.Invoicer.Infrastructure.Persistance.csproj" />
+  </Folder>
+  <Folder Name="/Shared/" />
+  <Folder Name="/Tests/">
+    <Project Path="Tests/AI.Invoicer.Infrastructure.Tests/AI.Invoicer.Infrastructure.Tests.csproj" Id="7fdeef00-1d84-4f70-a918-c44375480609" />
+  </Folder>
   <Project Path="AI.Invoicer.Main/AI.Invoicer.Main.csproj" />
 </Solution>
