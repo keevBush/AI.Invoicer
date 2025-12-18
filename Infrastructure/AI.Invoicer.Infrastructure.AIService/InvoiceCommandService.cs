@@ -35,7 +35,7 @@ namespace AI.Invoicer.Infrastructure.AIService
         {
             var commands = new List<AiCommand>();
 
-            if (string.IsNullOrWhiteSpace(jsonResponse))
+            if (string.IsNullOrEmpty(jsonResponse.Trim()))
             {
                 commands.Add(new UnknownCommand { Feedback = "L'IA n'a pas fourni de réponse." });
                 return commands;
